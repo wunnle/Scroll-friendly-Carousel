@@ -7,9 +7,6 @@ body {
   padding: 30px;
 }
 
-$slideW: 200px;
-$slideM: 8px;
-
 .slider {
   width: 320px;
   padding: 0;
@@ -19,7 +16,7 @@ $slideM: 8px;
 }
 
 .slider ul {
-  margin: 0 $slideW/4 + $slideM / 4;
+  margin: 0 52px;
   display: inline-block;
 }
 
@@ -30,7 +27,7 @@ $slideM: 8px;
   width: 200px;
   background-size: cover;
   white-space: nowrap;
-  margin: 0 $slideM;
+  margin: 0 8px;
 }
 
 .slider img {
