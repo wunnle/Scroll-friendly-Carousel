@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 30px;
+}
+
+$slideW: 200px;
+$slideM: 8px;
+
+.slider {
+  width: 320px;
+  padding: 0;
+  height: 300px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.slider ul {
+  margin: 0 $slideW/4 + $slideM / 4;
+  display: inline-block;
+}
+
+.slider li {
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  white-space: nowrap;
+  margin: 0 $slideM;
+}
+
+.slider img {
+  display: none;
+}
